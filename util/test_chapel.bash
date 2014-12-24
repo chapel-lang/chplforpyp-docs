@@ -26,7 +26,7 @@ cd $EXM_DIR
 
 log_info "Running start_test..."
 test_log=$REPO_ROOT/chapel-results.log
-start_test --logfile $test_log --no-chpl-home-warn .
+start_test --logfile $test_log --no-chpl-home-warn --junit-xml-file $REPO_ROOT/chapel-tests.xml .
 
 # Analyze the results (someday, start_test might use exit codes to indicate
 # pass/fail...)
