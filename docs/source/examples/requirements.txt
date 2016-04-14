@@ -1,2 +1,3 @@
 numpy
 pytest
+nose>=0.10.0
