@@ -61,11 +61,6 @@ Appendix
 
    appendix
 
-Bibliography
-============
-
-.. bibliography:: refs.bib
-
 
 Links
 =====

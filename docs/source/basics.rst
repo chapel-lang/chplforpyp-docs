@@ -33,7 +33,9 @@ Running "./hello" should output::
 
     Hello, world!
 
-If you are running MacOSX, Windows, or for some other the reason the above commands does not work for you then consult the official README :cite:`LangChapelReadme` or follow this installation-tutorial :cite:`LangChapelTutorial`.
+If you are running MacOSX, Windows, or for some other the reason the above commands does not work for you then consult the official `quick start instructions`_.
+
+.. _quick start instructions: http://chapel.cray.com/docs/master/usingchapel/QUICKSTART.html
 
 Compiling
 ---------
