@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# PyChapel documentation build configuration file, created by
+# PyChapel (Chapel for Python Programmers) documentation build configuration file, created by
 # sphinx-quickstart on Thu Apr 14 16:40:39 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Chapel for Python Programmers'
-copyright = '2016, Simon A. F. Lund'
-author = 'Chapel'
+copyright = '2014, Simon A. F. Lund'
+author = 'Simon A. F. Lund'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -123,7 +123,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = 'PyChapel v1.0'
+#html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
