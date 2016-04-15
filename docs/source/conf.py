@@ -28,15 +28,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-extensions = [
-    'sphinx.ext.pngmath',
-    'sphinxcontrib.bibtex'
-]
-
-extensions = []
+todo_include_todos=True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -53,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'PyChapel'
-copyright = '2016, Chapel'
+project = 'Chapel for Python Programmers'
+copyright = '2016, Simon A. F. Lund'
 author = 'Chapel'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -213,7 +205,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PyChapeldoc'
+htmlhelp_basename = 'ChapelforPythonProgrammersdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
