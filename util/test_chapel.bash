@@ -37,7 +37,7 @@ start_test \
 errors=$(grep -c -E "^\[Error" ${test_log}.summary || :)
 warnings=$(grep -c -E "^\[Warning" ${test_log}.summary || :)
 
-if (( $errors > 0 || $warnings > 0 )) ; then
+if (( errors > 0 || warnings > 0 )) ; then
     log_error "Failures: ${errors} errors and ${warnings} warnings found."
     exit 1
 fi
