@@ -1,6 +1,6 @@
 # README #
 
-Repository backing: https://chapel-for-python-programmers.readthedocs.org
+Repository backing: https://chapel-for-python-programmers.readthedocs.io
 
 [![Build Status](https://travis-ci.org/chapel-lang/chplforpyp-docs.svg)](https://travis-ci.org/chapel-lang/chplforpyp-docs)
 
@@ -13,7 +13,7 @@ Repository backing: https://chapel-for-python-programmers.readthedocs.org
 
 * Install Python package dependencies from
   [`requirements.txt`](requirements.txt).
-* Create an account on https://readthedocs.org/
+* Create an account on https://readthedocs.io/
 * Send me an email
 
 ### Contribution guidelines ###
