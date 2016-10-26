@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Chapel for Python Programmers'
-copyright = '2014, Simon A. F. Lund'
+copyright = '2014-2016, Cray Inc.'
 author = 'Simon A. F. Lund'
 
 # The version info for the project you're documenting, acts as replacement for
