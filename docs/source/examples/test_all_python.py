@@ -35,14 +35,14 @@ class PyToChplTests(_PyTestCase):
 
     def test_arrays_init(self):
         self.assertEqual(
-            """[  1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+            """[ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
 """,
             self.runpy('arrays.init.py'))
 
     def test_arrays_promo(self):
         self.assertEqual(
-            """[ 1.          1.41421356  1.73205081  2.          2.23606798  2.44948974
-  2.64575131  2.82842712  3.          3.16227766]
+            """[1.         1.41421356 1.73205081 2.         2.23606798 2.44948974
+ 2.64575131 2.82842712 3.         3.16227766]
 [3.0, 6.0, 9.0, 12.0, 15.0, 18.0, 21.0, 24.0, 27.0, 30.0]
 [6.0, 12.0, 18.0, 24.0, 30.0, 36.0, 42.0, 48.0, 54.0, 60.0]
 """,
@@ -256,7 +256,7 @@ class PyToChplTests(_PyTestCase):
     def test_arrays_reduc(self):
         self.assertEqual(
             """55.0
-[  1.   3.   6.  10.  15.  21.  28.  36.  45.  55.]
+[ 1.  3.  6. 10. 15. 21. 28. 36. 45. 55.]
 """,
             self.runpy('arrays.reduc.py'))
 
@@ -267,9 +267,9 @@ class PyToChplTests(_PyTestCase):
         # Also spot check the results when seeded with 173...
         seed_173_results = self.runpy(
             '-c "import numpy; numpy.random.seed(173); import arrays_whole"').splitlines()
-        self.assertEqual('1.93667466205', seed_173_results[0])
-        self.assertEqual('2.5402632511', seed_173_results[42])
-        self.assertEqual('0.964120007336', seed_173_results[-1])
+        self.assertAlmostEqual(1.93667466205, eval(seed_173_results[0]))
+        self.assertAlmostEqual(2.5402632511, eval(seed_173_results[42]))
+        self.assertAlmostEqual(0.964120007336, eval(seed_173_results[-1]))
 
     def test_classes(self):
         self.assertEqual('Green\n', self.runpy('classes.py'))
