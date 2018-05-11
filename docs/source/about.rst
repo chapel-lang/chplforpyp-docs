@@ -26,11 +26,6 @@ The work can build upon experiences from our integration of Bohrium and NumPy an
 pyChapel
 ========
 
-We hypothesize that much can be achieved by treating Python/NumPy as a DSL and mapping array-operations into Chapel. However, at some point even these abstractions and mappings break down. This project would explore what to do when the abstractions fail.
-
-Inspiration could be taken from work such as pyOpenCL[3]/pyCuda[4] that allow the user to take control within Python by representing a GPU-kernel function as a string with access to NumPy arrays.
-A similar approach could be adopted where the user describes a "kernel-function" in Chapel operating on NumPy arrays.
-An example of its use would be to take a compound array-expression exhibiting an excessive use of temporary arrays. The user would replace the array-expression and instead formulate it as a small snippet of Chapel code utilizing zipped iterators. One could also view it as "inlining Chapel code".
-
-Another approach would be to map Python functions to Chapel. Python can be expanded through the use of modules[8], ctypes[9], and most conveniently through cython[7]. These approaches expand python modules and functions through a c-implementation.
-The work would explore a similar approach but with the implementation done in Chapel. It would apply for situations where control is needed on a level exceeding kernel-functions in order to apply the parallelization needed. The motivation for this approach is to apply the Chapel code on the same data-structures as used within Python such that Python acts as the glue code for orchestration of computation and visualization. 
+The pyChapel implementation is now deprecated in favor of an approach utilizing
+Cython.  This is a work in progress effort, but should hopefully come online
+shortly.
