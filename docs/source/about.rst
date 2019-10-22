@@ -1,3 +1,5 @@
+.. warning::
+    This page was developed by a community member in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
 =================
 Python and Chapel
 =================
