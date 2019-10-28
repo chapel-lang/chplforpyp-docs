@@ -1,5 +1,5 @@
 .. warning::
-    This page was developed by a community member in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
+    This page was contributed in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
 
 .. Chapel for Python Programmers documentation master file, created by
    sphinx-quickstart on Sun Jun 22 21:40:06 2014.
