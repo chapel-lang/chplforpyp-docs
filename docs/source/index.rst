@@ -1,3 +1,6 @@
+.. warning::
+    This page was contributed in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
+
 .. Chapel for Python Programmers documentation master file, created by
    sphinx-quickstart on Sun Jun 22 21:40:06 2014.
    You can adapt this file completely to your liking, but it should at least
@@ -27,11 +30,6 @@ The alternative is Chapel_, and it comes with a set of turbo-charged batteries f
 .. toctree::
    :maxdepth: 2
 
-   numpy
-
-.. toctree::
-   :maxdepth: 2
-
    batteries
 
 .. toctree::
@@ -53,13 +51,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Appendix
-========
-
-.. toctree::
-   :maxdepth: 2
-
-   appendix
 
 
 Links

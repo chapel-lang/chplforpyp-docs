@@ -1,3 +1,6 @@
+.. warning::
+    This page was contributed in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
+
 Miscellaneous Notes
 ===================
 
@@ -12,11 +15,4 @@ For development, install the Python packages listed in the ``requirements.txt`` 
 
     # From the root of the git repo:
     pip install -r requirements.txt
-
-Introspection
--------------
-
-writeln(typeToString(something.type))
-
-CompilerWarning
 

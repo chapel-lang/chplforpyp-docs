@@ -1,3 +1,6 @@
+.. warning::
+    This page was contributed in 2015 and is not being actively maintained.  Please refer to chapel-lang.org/docs instead.
+
 Getting Started
 ===============
 
